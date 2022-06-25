@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "lib": [
+      "esnext"
+    ],
+    "module": "commonjs",
+    "target": "es2022",
+  },
+  "include": [
+    "src/**/*.ts",
+    "serverless.ts"
+  ],
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
+}
