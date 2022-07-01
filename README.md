@@ -1,7 +1,7 @@
 # Serverless GraphQL Boilerplate
 
-This is a project created to be the base for my future projects.  
-It has a basic structure for an Apollo GraphQL project, and it can be deployed to a lambda on an serverless architecture.  
+This is a base project with a structure that includes Serverless Framework, Apollo, TypeScript and Webpack.  
+It can be deployed to a lambda on an serverless architecture.  
 It also has some nice development features, like Hot Reload.
 
 ## Getting Started
@@ -17,3 +17,7 @@ It also has some nice development features, like Hot Reload.
 
 To deploy the app, just run `npm run deploy:prd`.  
 It will deploy to the **profile** and **region** specified in the `.env` file.
+
+## Check the article
+
+https://blog.perfect-base.com/nodejs-serverless-graphql
